@@ -21,9 +21,3 @@ Blog: [https://blog.wefixit.at/?p=110](https://blog.wefixit.at/?p=110)
 ## Voraussetzung:
 
 * CPU 64bit, Auf ARM CPU's läuft cbird nicht (getestet mit Rasperry Pi und Cubieboard)
-
-## TODO:
-
-* Anpassen für CentOS 7
-* Anpassen für Ubuntu 15.10
-* Anpassen für Debian 8
