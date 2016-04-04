@@ -18,7 +18,7 @@ Blog: [https://blog.wefixit.at/?p=110](https://blog.wefixit.at/?p=110)
 
 * Arch Linux 4.4.2016, java 1.8.0_77
 
-## Vorraussetzung:
+## Voraussetzung:
 
 * CPU 64bit, Auf ARM CPU's läuft cbird nicht (getestet mit Rasperry Pi und Cubieboard)
 
