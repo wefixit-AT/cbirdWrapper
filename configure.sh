@@ -17,20 +17,26 @@ swt="swt.jar"
 if [ "`$LSB_RELEASE -d | cut -f 2`" = "Arch Linux" ]; then
 	echo "Arch Linux gefunden"
 	# search for swt.jar
-	pacman -Qs swt 1> /dev/null
-	if [ $? -ne 0 ]; then
+	swt=`readlink -f /usr/share/java/swt.jar`
+	if [ ! -f $swt ]; then
 		echo "!!! SWT ist nicht installiert starte 'pacman -Ss swt' und wiederhole die Konfiguration"
 		exit 1
-	else
-		swt=`readlink -f /usr/share/java/swt.jar`
 	fi
+# Ubuntu
+elif [ "`$LSB_RELEASE -d | cut -f 2`" = "Ubuntu 15.10" ]; then
+	echo "Ubuntu 15.10 gefunden"
+	# search for swt.jar
+	swt=`readlink -f /usr/share/java/swt.jar`
+	if [ ! -f $swt ]; then
+		echo "!!! SWT ist nicht installiert starte 'apt-get install libswt-gtk-3-java libswt-cairo-gtk-3-jni' und wiederhole die Konfiguration"
+		exit 1
+	fi
+else
+	echo "!!! Distribution nicht gefunden, bitte erstelle einen Eintrag im GitHub Repository"
+	exit 1
 fi
 
 # copy swt.jar to cbird
-if [ ! -f $swt ]; then
-	echo "!!! Die SWT Bibliothek konnte nicht gefunden werden ($swt)"
-	exit 1
-fi
 rm -rf $LIB_D/*
 cp $swt $LIB_D/
 if [ $? -ne 0 ]; then

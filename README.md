@@ -16,7 +16,8 @@ Blog: [https://blog.wefixit.at/?p=110](https://blog.wefixit.at/?p=110)
 
 ## Getestete Systeme:
 
-* Arch Linux 4.4.2016, java 1.8.0_77
+* Arch Linux 4.4.2016, swt-4.5.jar
+* Ubunut 15.10, swt-gtk-3.8.2.jar
 
 ## Voraussetzung:
 
