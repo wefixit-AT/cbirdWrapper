@@ -22,9 +22,9 @@ if [ "`$LSB_RELEASE -d | cut -f 2`" = "Arch Linux" ]; then
 		echo "!!! SWT ist nicht installiert starte 'pacman -Ss swt' und wiederhole die Konfiguration"
 		exit 1
 	fi
-# Ubuntu
-elif [ "`$LSB_RELEASE -d | cut -f 2`" = "Ubuntu 15.10" ]; then
-	echo "Ubuntu 15.10 gefunden"
+# Ubuntu/Debian
+elif [ "`$LSB_RELEASE -d | cut -f 2`" = "Ubuntu 15.10" ] || [ "`$LSB_RELEASE -d | cut -f 2`" = "Debian GNU/Linux 8.4 (jessie)" ]; then
+	echo "Ubuntu/Debian gefunden"
 	# search for swt.jar
 	swt=`readlink -f /usr/share/java/swt.jar`
 	if [ ! -f $swt ]; then
