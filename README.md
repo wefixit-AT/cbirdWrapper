@@ -15,6 +15,10 @@ Blog: [https://blog.wefixit.at/?p=110](https://blog.wefixit.at/?p=110)
 * Setze die Variable "BASE" in start.sh
 * Starte cbird mit ./start.sh
 
+## Nützliche Konfiguration
+
+* Fullscreen: Kann in start.sh gesetzt werden
+
 ## Getestete Systeme:
 
 * Arch Linux 4.4.2016, swt-4.5.jar
