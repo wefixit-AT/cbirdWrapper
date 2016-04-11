@@ -12,6 +12,7 @@ Blog: [https://blog.wefixit.at/?p=110](https://blog.wefixit.at/?p=110)
 
 * Kopiere den gesamten Inhalt vom USB Stick in den Ordner "cbird-usb-stick"
 * Starte ./configure.sh so oft bis keine Fehlermeldungen angezeigt werden.
+* Setze die Variable "BASE" in start.sh
 * Starte cbird mit ./start.sh
 
 ## Getestete Systeme:

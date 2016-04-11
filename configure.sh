@@ -23,7 +23,7 @@ if [ "`$LSB_RELEASE -d | cut -f 2`" = "Arch Linux" ]; then
 		exit 1
 	fi
 # Ubuntu/Debian
-elif [ "`$LSB_RELEASE -d | cut -f 2`" = "Ubuntu 15.10" ] || [ "`$LSB_RELEASE -d | cut -f 2`" = "Debian GNU/Linux 8.4 (jessie)" ]; then
+elif [ "`$LSB_RELEASE -d | cut -f 2`" = "Ubuntu 15.10" ] || [ "`$LSB_RELEASE -d | cut -f 2`" = "Debian GNU/Linux 8.4 (jessie)" ] || [ "`$LSB_RELEASE -d | cut -f 2`" = "Ubuntu 14.04.4 LTS" ]; then
 	echo "Ubuntu/Debian gefunden"
 	# search for swt.jar
 	swt=`readlink -f /usr/share/java/swt.jar`
