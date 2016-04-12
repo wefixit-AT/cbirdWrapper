@@ -1,0 +1,16 @@
+apply plugin: "java"
+
+sourceSets {
+    main {
+        java {
+            srcDirs = ['src']
+        }
+    }
+}
+
+jar {
+	manifest {
+		attributes("Main-Class": "printTest.Main",
+			"Created-By": "we-fix-it e.U. (Gregor Binder)")
+	}
+}
