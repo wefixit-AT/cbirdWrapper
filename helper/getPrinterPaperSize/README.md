@@ -20,4 +20,4 @@ Zuständiger Eintrag siehe: Bondrucker wird nicht angezeigt #6
     -----------------------------------
     Name: Roll paper 80 x 297 mm
       Dimension MM: width=80.0, height=296.999
-      iDimension INCH: width=3.1496062, height=11.692874
+      Dimension INCH: width=3.1496062, height=11.692874
