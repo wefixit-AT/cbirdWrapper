@@ -6,7 +6,7 @@ Mit dem  cbirdWrapper kann die cbird Registrierkassen-Software unter Linux betri
 
 HINWEIS: Es wird keine Haftung jeglicher Art übernommen weder von we-fix-it e.U. noch vom Hersteller der Software usoft e.U.. Der Anwender ist selbständig verantwortlich für verursachte Schäden und sollte vor jeder Änderung und vor Tests eine komplette Sicherung durchführen.
 
-Blog: [https://blog.wefixit.at/?p=110](https://blog.wefixit.at/?p=110)
+Blog: [https://blog.wefixit.at/registrierkassen-software-cbird-unter-linux-verwenden/](https://blog.wefixit.at/registrierkassen-software-cbird-unter-linux-verwenden/)
 
 ## Installation
 
